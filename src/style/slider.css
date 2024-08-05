@@ -1,11 +1,11 @@
-#slider-wrapper {
+.slider-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 450px;
 }
 
-#slider {
+.slider {
   width: 300px;
   height: auto;
   overflow: hidden;
@@ -15,7 +15,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: none;
 }
 
 .arrow {
@@ -38,10 +37,4 @@
   to {
     margin-left: 0;
   }
-}
-
-.visible {
-  display: block;
-  animation: show ease-out 0.4s;
-  margin: 0 auto;
 }
